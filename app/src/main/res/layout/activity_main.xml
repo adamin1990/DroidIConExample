@@ -1,0 +1,174 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:droidicon="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <com.thedazzler.droidicon.badges.FacebookDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.VimeoDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.SpotifyDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+    <View
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+       android:id="@+id/testicon"
+        />
+    <com.thedazzler.droidicon.badges.DroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        droidicon:db_icon="esocial-c-facebook"
+        droidicon:db_icon_color="@color/red"
+        droidicon:db_size="150dp"
+        droidicon:paddingStart="10dp"
+
+      ></com.thedazzler.droidicon.badges.DroidiconBadge>
+    <com.thedazzler.droidicon.badges.GooglePlusDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+    <com.thedazzler.droidicon.badges.PinterestDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.TumblrDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.LinkedinDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.DribbleDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+    <com.thedazzler.droidicon.badges.TwitterDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.StumbleUponDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.LastfmDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.RdioDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+    <com.thedazzler.droidicon.badges.SkypeDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.GithubDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.InstagramDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.DropboxDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+    <com.thedazzler.droidicon.badges.EvernoteDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.PaypalDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.SoundCloudDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.BehanceDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+    <com.thedazzler.droidicon.badges.FoursquareDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.TrelloDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.YoutubeDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+    <com.thedazzler.droidicon.badges.AndroidDroidiconBadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+    <com.thedazzler.droidicon.badges.StackOverflowDroidiconbadge
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        />
+
+</LinearLayout >
+</ScrollView>
